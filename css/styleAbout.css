@@ -16,10 +16,24 @@
   width: 100%;
   padding: 0.5em;
 }
-
-.hintergrund {
-  width: 200vh;
-  height: 95vh;
-  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: blur(5px);
+body {
+  background-image: url(../images/Hintergrund.png);
+  background-size: 200vh 100vh;
+  background-size: cover; /* Deckt den gesamten Bereich ab */
+  background-repeat: repeat-y; /* Wiederholt das Bild vertikal */
+  background-attachment: fixed;
+}
+.content {
+  font-family: "Kenney Rocket";
+}
+@font-face {
+  font-family: "Kenney Rocket"; /* Name your font family */
+  src: url(../fonts/Kenney\ Rocket.ttf); /* Locate the .ttf file within your directory*/
+}
+#header{
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 5vh;
+  font-weight: 500;
+  font-stretch: expanded;
 }

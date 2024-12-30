@@ -18,8 +18,25 @@
 }
 body {
   overflow: hidden;
+  background-image: url(../images/Hintergrund.png);
+  background-size: 200vh 100vh;
 }
-.hintergrund {
-  width: 200vh;
-  height: 95vh;
+.content {
+  font-family: "Kenney Rocket";
+  text-align: center;
+}
+@font-face {
+  font-family: "Kenney Rocket"; /* Name your font family */
+  src: url(../fonts/Kenney\ Rocket.ttf); /* Locate the .ttf file within your directory*/
+}
+.header {
+  margin-top: 40vh;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-size: 10vh;
+}
+#textHome{
+  margin-top: 5vh;
+  font-size: 2vh;
+  font-weight: 200;
 }
