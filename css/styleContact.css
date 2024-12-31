@@ -30,13 +30,8 @@ body {
   src: url(../fonts/Kenney\ Rocket.ttf); /* Locate the .ttf file within your directory*/
 }
 .header {
-  margin-top: 40vh;
+  margin-top: 5vh;
   font-weight: 800;
   font-stretch: expanded;
   font-size: 10vh;
-}
-#textHome{
-  margin-top: 5vh;
-  font-size: 2vh;
-  font-weight: 200;
 }
