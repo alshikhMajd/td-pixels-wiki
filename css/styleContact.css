@@ -19,11 +19,13 @@
 body {
   overflow: hidden;
   background-image: url(../images/Hintergrund.png);
-  background-size: 175vh 100vh;
+  background-size: 180vh 100vh;
 }
 .content {
-  font-family: "Kenney Rocket";
-  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 5vh auto;
+  width: 80%;
 }
 @font-face {
   font-family: "Kenney Rocket"; /* Name your font family */
@@ -34,4 +36,13 @@ body {
   font-weight: 800;
   font-stretch: expanded;
   font-size: 10vh;
+  font-family: "Kenney Rocket";
+  text-align: center;
+}
+#text {
+  font-family: "Kenney Rocket";
+  text-align: center;
+}
+.card {
+  margin-left: 2vh;
 }
