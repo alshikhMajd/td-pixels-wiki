@@ -22,11 +22,11 @@ body {
   background-size: 181vh 100vh;
 }
 .content {
-  font-family: "Kenney Rocket";
+  font-family: 'Kenney Rocket';
   text-align: center;
 }
 @font-face {
-  font-family: "Kenney Rocket"; /* Name your font family */
+  font-family: 'Kenney Rocket'; /* Name your font family */
   src: url(../fonts/Kenney\ Rocket.ttf); /* Locate the .ttf file within your directory*/
 }
 .header {
@@ -35,8 +35,12 @@ body {
   font-stretch: expanded;
   font-size: 10vh;
 }
-#textHome{
+#textHome {
   margin-top: 5vh;
   font-size: 2vh;
   font-weight: 200;
+}
+.tipp {
+  width: 40vh;
+  border: 1px dotted black;
 }
