@@ -28,19 +28,7 @@ body {
 @font-face {
   font-family: "Kenney Rocket"; /* Name your font family */
   src: url(../fonts/Kenney\ Rocket.ttf); /* Locate the .ttf file within your directory*/
-}
-.header {
-  margin-top: 40vh;
-  font-weight: 800;
-  font-stretch: expanded;
-  font-size: 10vh;
-}
-#textHome {
-  margin-top: 5vh;
-  font-size: 2vh;
-  font-weight: 200;
-}
-#home {
+}#home {
   color: green;
   background-color: lightgreen;
   border-radius: 50vh;
@@ -79,9 +67,4 @@ body {
 }
 #contact:hover {
   color: olivedrab;
-}
-#tipp {
-  margin-top: 20vh;
-  opacity: 0.5;
-  position: relative;
 }

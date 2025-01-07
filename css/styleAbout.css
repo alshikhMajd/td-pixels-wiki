@@ -56,3 +56,43 @@ body {
   margin-left: 22vh;
   margin-right: 22vh;
 }
+#home {
+  color: green;
+  background-color: lightgreen;
+  border-radius: 50vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+#home:hover {
+  color: olivedrab;
+}
+#wiki {
+  color: green;
+  background-color: lightgreen;
+  border-radius: 50vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+#wiki:hover {
+  color: olivedrab;
+}
+#about {
+  color: green;
+  background-color: lightgreen;
+  border-radius: 50vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+#about:hover {
+  color: olivedrab;
+}
+#contact {
+  color: green;
+  background-color: lightgreen;
+  border-radius: 50vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+#contact:hover {
+  color: olivedrab;
+}
