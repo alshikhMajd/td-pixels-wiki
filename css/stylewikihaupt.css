@@ -17,18 +17,19 @@
   padding: 0.5em;
 }
 body {
-  overflow: hidden;
   background-image: url(../images/Hintergrund.png);
   background-size: 181vh 100vh;
 }
 .content {
   font-family: "Kenney Rocket";
   text-align: center;
+  display: flex;
 }
 @font-face {
   font-family: "Kenney Rocket"; /* Name your font family */
   src: url(../fonts/Kenney\ Rocket.ttf); /* Locate the .ttf file within your directory*/
-}#home {
+}
+#home {
   color: green;
   background-color: lightgreen;
   border-radius: 50vh;
@@ -67,4 +68,31 @@ body {
 }
 #contact:hover {
   color: olivedrab;
+}
+#karte {
+  margin-top: 10vh;
+  margin-left: 20vh;
+  height: 40vh;
+}
+#kartenimg {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+  height: 35vh;
+}
+#gegner {
+  margin-top: 10vh;
+  margin-left: 20vh;
+  height: 40vh;
+}
+#gegnerimg {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+  height: 35vh;
+}
+#tuerme {
+  font-family: "Kenney Rocket";
+  text-align: center;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
