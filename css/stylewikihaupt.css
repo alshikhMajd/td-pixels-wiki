@@ -18,7 +18,9 @@
 }
 body {
   background-image: url(../images/Hintergrund.png);
-  background-size: 181vh 100vh;
+  background-size: cover; /* Deckt den gesamten Bereich ab */
+  background-repeat: repeat-y; /* Wiederholt das Bild vertikal */
+  background-attachment: fixed;
 }
 .content {
   font-family: "Kenney Rocket";
@@ -71,28 +73,37 @@ body {
 }
 #karte {
   margin-top: 10vh;
-  margin-left: 20vh;
-  height: 40vh;
+  margin-left: 10vh;
+  height: 310vh;
 }
 #kartenimg {
-  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: blur(5px);
   height: 35vh;
+  margin-top: 50vh;
 }
 #gegner {
   margin-top: 10vh;
-  margin-left: 20vh;
-  height: 40vh;
+  margin-left: 10vh;
+  margin-bottom: 10vh;
+  height: 310vh;
 }
 #gegnerimg {
-  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-  filter: blur(5px);
+  margin-top: 2vh;
+  margin-left: 2vh;
   height: 35vh;
 }
 #tuerme {
+  margin-top: 10vh;
+  margin-left: 10vh;
+  height: 310vh;
+}
+#tuermeimg {
+  margin-top: 19vh;
+  height: 35vh;
+}
+#header {
   font-family: "Kenney Rocket";
   text-align: center;
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  font-weight: 800;
+  font-stretch: expanded;
+  font-size: 10vh;
 }
